@@ -1,0 +1,280 @@
+* {
+    font-family: initial;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #0FC690;
+    height: 90px;
+    padding: 10px;
+    border: none;
+    padding: 0;
+}
+
+.logo {
+
+    margin-right: 320px;
+    font-size: 55px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    color: black;
+}
+
+.searchimg {
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+a:hover {
+    color: white;
+}
+
+.grandparent {
+    position: relative;
+    color: white;
+}
+
+.parentimg {
+    opacity: 0.86;
+    background-color: black transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.parent {
+    position: absolute;
+    top: 150px;
+    width: 1000px;
+
+}
+
+.litlparent {
+    display: flex;
+    justify-content: center;
+}
+
+.firstitle {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.firspar {
+    padding-top: 50px;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.readbtn {
+    background-color: #0FC690;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 430px;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.readbtn:hover {
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+.after {
+    position: absolute;
+    top: 260px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.befor {
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.abtparent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.abttitle {
+    padding-top: 50px;
+    font-size: 50px;
+    margin: auto;
+    border-bottom: 2px solid #0FC690;
+}
+
+.abtpar {
+
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 21px;
+}
+
+.abtimg {
+    margin: auto;
+    padding-top: 40px;
+    max-width: 100%;
+
+}
+
+.abtreadmor {
+    margin: auto;
+    background-color: black;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    font-size: 22px;
+    color: white;
+    border: none;
+
+}
+
+.abtreadmor:hover {
+    background-color: #0FC690;
+    transition-duration: 0.5s;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(219, 217, 217);
+    margin-top: 100px;
+    height: 850px;
+}
+
+.sertitle {
+    padding-top: 40px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 45px;
+    border-bottom: 2px solid #0FC690;
+}
+
+.serpar {
+    width: 1000px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+.serimg {
+    width: 1200;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 30px;
+
+}
+
+.gridimg {
+    position: relative;
+}
+
+.igridtitle {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: #0FC690;
+}
+
+.gridimg:hover {
+    background-color: #0FC690;
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: grab;
+
+}
+
+.download {
+    width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.downtitle {
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 280px;
+    margin-top: 30px;
+
+}
+
+.downpar {
+    margin-top: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: 0.8;
+}
+
+.downimg {
+    margin-top: 40px;
+    margin-left: 50px;
+    cursor: all-scroll;
+}
+
+.dwonbtn1 {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+}
+
+.dwonbtn2 {
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+}
